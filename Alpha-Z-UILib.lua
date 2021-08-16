@@ -119,7 +119,7 @@ function library:Window(name)
     Header.Name = "Header"
     Header.Parent = UiWindow
     Header.BackgroundColor3 = Color3.fromRGB(240, 31, 31)
-    Header.BorderColor3 = Color3.fromRGB(31, 121, 239)
+    Header.BorderColor3 = Color3.fromRGB(240, 31, 31)
     Header.Position = UDim2.new(0, 0, -0.0202544238, 0)
     Header.Size = UDim2.new(0, 207, 0, 26)
     Header.ZIndex = 5 + zindex
@@ -132,7 +132,7 @@ function library:Window(name)
     HeaderText.Position = UDim2.new(0, 0, -0.0020698905, 0)
     HeaderText.Size = UDim2.new(0, 206, 0, 33)
     HeaderText.ZIndex = 6 + zindex
-    HeaderText.Font = Enum.Font.SourceSans
+    HeaderText.Font = Enum.Font.Cartoon
     HeaderText.Text = name or "Window"
     HeaderText.TextColor3 = Color3.fromRGB(47, 54, 64)
     HeaderText.TextSize = 17.000
@@ -146,7 +146,7 @@ function library:Window(name)
     Minimise.Position = UDim2.new(0, 185, 0, 2)
     Minimise.Size = UDim2.new(0, 22, 0, 22)
     Minimise.ZIndex = 7 + zindex
-    Minimise.Font = Enum.Font.SourceSansLight
+    Minimise.Font = Enum.Font.CartoonLight
     Minimise.Text = "_"
     Minimise.TextColor3 = Color3.fromRGB(0, 0, 0)
     Minimise.TextSize = 20.000
@@ -187,7 +187,7 @@ function library:Window(name)
         Button.Size = UDim2.new(0, 182, 0, 26)
         Button.ZIndex = 2 + zindex
         Button.Selected = true
-        Button.Font = Enum.Font.SourceSans
+        Button.Font = Enum.Font.Cartoon
         Button.TextColor3 = Color3.fromRGB(245, 246, 250)
         Button.TextSize = 16.000
         Button.TextStrokeTransparency = 123.000
@@ -212,7 +212,7 @@ function library:Window(name)
         Label.BorderColor3 = Color3.fromRGB(27, 42, 53)
         Label.Position = UDim2.new(0, 0, 0, listOffset[winCount])
         Label.Size = UDim2.new(0, 206, 0, 29)
-        Label.Font = Enum.Font.SourceSans
+        Label.Font = Enum.Font.Cartoon
         Label.Text = text or "Label"
         Label.TextSize = 16.000
         Label.ZIndex = 2 + zindex
@@ -247,7 +247,7 @@ function library:Window(name)
         ToggleDescription.BackgroundTransparency = 1.000
         ToggleDescription.Position = UDim2.new(0, 14, 0, listOffset[winCount])
         ToggleDescription.Size = UDim2.new(0, 131, 0, 26)
-        ToggleDescription.Font = Enum.Font.SourceSans
+        ToggleDescription.Font = Enum.Font.Cartoon
         ToggleDescription.Text = text or "Toggle"
         ToggleDescription.TextColor3 = Color3.fromRGB(245, 246, 250)
         ToggleDescription.TextSize = 16.000
@@ -261,7 +261,7 @@ function library:Window(name)
         ToggleButton.BorderColor3 = Color3.fromRGB(113, 128, 147)
         ToggleButton.Position = UDim2.new(1.2061069, 0, 0.0769230798, 0)
         ToggleButton.Size = UDim2.new(0, 22, 0, 22)
-        ToggleButton.Font = Enum.Font.SourceSans
+        ToggleButton.Font = Enum.Font.Cartoon
         ToggleButton.Text = ""
         ToggleButton.TextColor3 = Color3.fromRGB(0, 0, 0)
         ToggleButton.TextSize = 14.000
@@ -295,7 +295,7 @@ function library:Window(name)
         TextBox.BorderColor3 = Color3.fromRGB(113, 128, 147)
         TextBox.Position = UDim2.new(0, 99, 0, listOffset[winCount])
         TextBox.Size = UDim2.new(0, 95, 0, 26)
-        TextBox.Font = Enum.Font.SourceSans
+        TextBox.Font = Enum.Font.Cartoon
         TextBox.PlaceholderColor3 = Color3.fromRGB(220, 221, 225)
         TextBox.PlaceholderText = "..."
         TextBox.Text = ""
@@ -316,7 +316,7 @@ function library:Window(name)
         BoxDescription.BackgroundTransparency = 1.000
         BoxDescription.Position = UDim2.new(-0.894736826, 0, 0, 0)
         BoxDescription.Size = UDim2.new(0, 75, 0, 26)
-        BoxDescription.Font = Enum.Font.SourceSans
+        BoxDescription.Font = Enum.Font.Cartoon
         BoxDescription.Text = text or "Box"
         BoxDescription.TextColor3 = Color3.fromRGB(245, 246, 250)
         BoxDescription.TextSize = 16.000
@@ -416,7 +416,7 @@ function library:Window(name)
         Current.BackgroundTransparency = 1.000
         Current.Position = UDim2.new(0, 3, 0, 22   )
         Current.Size = UDim2.new(0, 0, 0, 18)
-        Current.Font = Enum.Font.SourceSans
+        Current.Font = Enum.Font.Cartoon
         Current.Text = tostring(default)
         Current.TextColor3 = Color3.fromRGB(220, 221, 225)
         Current.TextSize = 14.000  
@@ -428,7 +428,7 @@ function library:Window(name)
         Description.BackgroundTransparency = 1.000
         Description.Position = UDim2.new(0, -10, 0, -35)
         Description.Size = UDim2.new(0, 200, 0, 21)
-        Description.Font = Enum.Font.SourceSans
+        Description.Font = Enum.Font.Cartoon
         Description.Text = text
         Description.TextColor3 = Color3.fromRGB(245, 246, 250)
         Description.TextSize = 16.000
@@ -448,7 +448,7 @@ function library:Window(name)
         Min.BackgroundTransparency = 1.000
         Min.Position = UDim2.new(-0.00555555569, 0, -7.33333397, 0)
         Min.Size = UDim2.new(0, 77, 0, 50)
-        Min.Font = Enum.Font.SourceSans
+        Min.Font = Enum.Font.Cartoon
         Min.Text = tostring(min)
         Min.TextColor3 = Color3.fromRGB(220, 221, 225)
         Min.TextSize = 14.000
@@ -461,7 +461,7 @@ function library:Window(name)
         Max.BackgroundTransparency = 1.000
         Max.Position = UDim2.new(0.577777743, 0, -7.33333397, 0)
         Max.Size = UDim2.new(0, 77, 0, 50)
-        Max.Font = Enum.Font.SourceSans
+        Max.Font = Enum.Font.Cartoon
         Max.Text = tostring(max)
         Max.TextColor3 = Color3.fromRGB(220, 221, 225)
         Max.TextSize = 14.000
@@ -490,7 +490,7 @@ function library:Window(name)
         Dropdown.Position = UDim2.new(0, 12, 0, listOffset[winCount])
         Dropdown.Size = UDim2.new(0, 182, 0, 26)
         Dropdown.Selected = true
-        Dropdown.Font = Enum.Font.SourceSans
+        Dropdown.Font = Enum.Font.Cartoon
         Dropdown.Text = tostring(text)
         Dropdown.TextColor3 = Color3.fromRGB(245, 246, 250)
         Dropdown.TextSize = 16.000
@@ -518,7 +518,7 @@ function library:Window(name)
         DownSign.BackgroundTransparency = 1.000
         DownSign.Position = UDim2.new(0, 155, 0, 2)
         DownSign.Size = UDim2.new(0, 27, 0, 22)
-        DownSign.Font = Enum.Font.SourceSans
+        DownSign.Font = Enum.Font.Cartoon
         DownSign.Text = "^"
         DownSign.TextColor3 = Color3.fromRGB(220, 221, 225)
         DownSign.TextSize = 20.000
@@ -552,7 +552,7 @@ function library:Window(name)
             Button_2.Position = UDim2.new(0, 6, 0, canvasSize + 1)
             Button_2.Size = UDim2.new(0, 170, 0, 26)
             Button_2.Selected = true
-            Button_2.Font = Enum.Font.SourceSans
+            Button_2.Font = Enum.Font.Cartoon
             Button_2.TextColor3 = Color3.fromRGB(245, 246, 250)
             Button_2.TextSize = 16.000
             Button_2.TextStrokeTransparency = 123.000
@@ -627,7 +627,7 @@ function library:Window(name)
         ColorPicker.Parent = Window
         ColorPicker.Position = UDim2.new(0, 137, 0, listOffset[winCount])
         ColorPicker.Size = UDim2.new(0, 57, 0, 26)
-        ColorPicker.Font = Enum.Font.SourceSans
+        ColorPicker.Font = Enum.Font.Cartoon
         ColorPicker.Text = ""
         ColorPicker.TextColor3 = Color3.fromRGB(0, 0, 0)
         ColorPicker.TextSize = 14.000
@@ -649,7 +649,7 @@ function library:Window(name)
         PickerDescription.BackgroundTransparency = 1.000
         PickerDescription.Position = UDim2.new(-2.15789509, 0, 0, 0)
         PickerDescription.Size = UDim2.new(0, 116, 0, 26)
-        PickerDescription.Font = Enum.Font.SourceSans
+        PickerDescription.Font = Enum.Font.Cartoon
         PickerDescription.Text = name or "Color picker"
         PickerDescription.TextColor3 = Color3.fromRGB(245, 246, 250)
         PickerDescription.TextSize = 16.000
@@ -671,7 +671,7 @@ function library:Window(name)
         ToggleRGB.BorderColor3 = Color3.fromRGB(113, 128, 147)
         ToggleRGB.Position = UDim2.new(0, 125, 0, 127)
         ToggleRGB.Size = UDim2.new(0, 22, 0, 22)
-        ToggleRGB.Font = Enum.Font.SourceSans
+        ToggleRGB.Font = Enum.Font.Cartoon
         ToggleRGB.Text = ""
         ToggleRGB.TextColor3 = Color3.fromRGB(0, 0, 0)
         ToggleRGB.TextSize = 14.000
@@ -691,7 +691,7 @@ function library:Window(name)
         TextLabel.BackgroundTransparency = 1.000
         TextLabel.Position = UDim2.new(-5.13636351, 0, 0, 0)
         TextLabel.Size = UDim2.new(0, 106, 0, 22)
-        TextLabel.Font = Enum.Font.SourceSans
+        TextLabel.Font = Enum.Font.Cartoon
         TextLabel.Text = "Rainbow"
         TextLabel.TextColor3 = Color3.fromRGB(245, 246, 250)
         TextLabel.TextSize = 16.000
@@ -704,7 +704,7 @@ function library:Window(name)
         ClosePicker.BorderColor3 = Color3.fromRGB(47, 54, 64)
         ClosePicker.Position = UDim2.new(0, 132, 0, 5)
         ClosePicker.Size = UDim2.new(0, 21, 0, 21)
-        ClosePicker.Font = Enum.Font.SourceSans
+        ClosePicker.Font = Enum.Font.Cartoon
         ClosePicker.Text = "X"
         ClosePicker.TextColor3 = Color3.fromRGB(245, 246, 250)
         ClosePicker.TextSize = 18.000
@@ -884,7 +884,7 @@ function library:Window(name)
         Title.BackgroundTransparency = 1.000
         Title.Position = UDim2.new(0, 10, 0, 5)
         Title.Size = UDim2.new(0, 118, 0, 21)
-        Title.Font = Enum.Font.SourceSans
+        Title.Font = Enum.Font.Cartoon
         Title.Text = name or "Color picker"
         Title.TextColor3 = Color3.fromRGB(245, 246, 250)
         Title.TextSize = 16.000
