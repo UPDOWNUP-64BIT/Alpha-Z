@@ -105,8 +105,8 @@ function library:Window(name)
 
     UiWindow.Name = "UiWindow"
     UiWindow.Parent = AlphaZUIlib
-    UiWindow.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
-    UiWindow.BorderColor3 = Color3.fromRGB(31, 121, 239)
+    UiWindow.BackgroundColor3 = Color3.fromRGB(240, 31, 31)
+    UiWindow.BorderColor3 = Color3.fromRGB(240, 31, 31)
     UiWindow.Position = UDim2.new(0, xOffset, 0, 20)
     UiWindow.Size = UDim2.new(0, 207, 0, 33)
     UiWindow.ZIndex = 4 + zindex
