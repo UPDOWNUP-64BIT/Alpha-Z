@@ -141,8 +141,8 @@ function library:Window(name)
     local Window = Instance.new("Frame")
     Minimise.Name = "Minimise"
     Minimise.Parent = Header
-    Minimise.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
-    Minimise.BorderColor3 = Color3.fromRGB(31, 121, 239)
+    Minimise.BackgroundColor3 = Color3.fromRGB(240, 31, 31)
+    Minimise.BorderColor3 = Color3.fromRGB(240, 31, 31)
     Minimise.Position = UDim2.new(0, 185, 0, 2)
     Minimise.Size = UDim2.new(0, 22, 0, 22)
     Minimise.ZIndex = 7 + zindex
@@ -273,7 +273,7 @@ function library:Window(name)
 
         ToggleFiller.Name = "ToggleFiller"
         ToggleFiller.Parent = ToggleButton
-        ToggleFiller.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
+        ToggleFiller.BackgroundColor3 = Color3.fromRGB(240, 31, 31)
         ToggleFiller.BorderColor3 = Color3.fromRGB(47, 54, 64)
         ToggleFiller.Position = UDim2.new(0, 5, 0, 5)
         ToggleFiller.Size = UDim2.new(0, 12, 0, 12)
@@ -436,7 +436,7 @@ function library:Window(name)
 
         SilderFiller.Name = "SilderFiller"
         SilderFiller.Parent = Slider
-        SilderFiller.BackgroundColor3 = Color3.fromRGB(31, 121, 239) 
+        SilderFiller.BackgroundColor3 = Color3.fromRGB(240, 31, 31) 
         SilderFiller.BorderColor3 = Color3.fromRGB(47, 54, 64)
         SilderFiller.Size = UDim2.new(0, (Slider.Size.X.Offset - 5) * ((default - min)/(max-min)), 0, 6)
         SilderFiller.ZIndex = 2 + zindex
@@ -679,7 +679,7 @@ function library:Window(name)
 
         ToggleFiller_2.Name = "ToggleFiller"
         ToggleFiller_2.Parent = ToggleRGB
-        ToggleFiller_2.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
+        ToggleFiller_2.BackgroundColor3 = Color3.fromRGB(240, 31, 31)
         ToggleFiller_2.BorderColor3 = Color3.fromRGB(47, 54, 64)
         ToggleFiller_2.Position = UDim2.new(0, 5, 0, 5)
         ToggleFiller_2.Size = UDim2.new(0, 12, 0, 12)
