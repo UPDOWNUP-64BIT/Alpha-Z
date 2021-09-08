@@ -447,7 +447,7 @@ function lib:Main()
 			Selectable = false,
 			Size = UDim2.new(1, 0, 0, 50),
 			AutoButtonColor = false,
-			Image = "http://www.roblox.com/asset/?id="..ImageId,
+			Image = "rbxassetid://"..ImageId,
 		})
 
 		categories.Container = lib:Create("ScrollingFrame", {
