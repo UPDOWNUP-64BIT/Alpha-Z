@@ -3,8 +3,8 @@ if game.PlaceId~=13822889 then
     repeat until nil
 end
 
-if game.CoreGui:FindFirstChild'Ancestor'then 
-    game.CoreGui.Ancestor:Destroy()
+if game.CoreGui:FindFirstChild'Agency'then 
+    game.CoreGui.Agency:Destroy()
 end
 
 function lib:Create(type, proprieties)
@@ -37,7 +37,7 @@ function lib:Notify(top, bottom)
 	local TextSolid = Instance.new("Frame")
 
 	NewUiLib.Name = "NewUiLib"
-	NewUiLib.Parent = game.CoreGui.Ancestor
+	NewUiLib.Parent = game.CoreGui.Agency
 
 	notibody.Name = "notibody"
 	notibody.Parent = NewUiLib
@@ -111,7 +111,7 @@ function lib:Notify(top, bottom)
 	LogoText_4.Position = UDim2.new(0.0520840697, 0, -0.00833334029, 0)
 	LogoText_4.Size = UDim2.new(0, 87, 0, 30)
 	LogoText_4.Font = Enum.Font.GothamBold
-	LogoText_4.Text = " Ancestor"
+	LogoText_4.Text = " Agency"
 	LogoText_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 	LogoText_4.TextSize = 27.000
 	UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
@@ -256,7 +256,7 @@ function lib:Main()
 	local firstC = true
 
 	main.ScreenGui = lib:Create("ScreenGui", {
-		Name = "Ancestor",
+		Name = "Agency",
 		ResetOnSpawn = false,
 	})
 
@@ -362,7 +362,7 @@ function lib:Main()
 		Position = UDim2.new(0.0331138819, 0, 0.125, 0),
 		Size = UDim2.new(0, 87, 0, 30),
 		Font = Enum.Font.GothamBold,
-		Text = "Ancestor",
+		Text = "Agency",
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		TextSize = 27.000,
 	})
@@ -1755,7 +1755,7 @@ function lib:Main()
 	end
 
 	main.Close.MouseButton1Click:Connect(function()
-		game.CoreGui.Ancestor:Destroy()
+		game.CoreGui.Agency:Destroy()
 	end)
 
 	main.ScreenGui.Parent = CoreGui
