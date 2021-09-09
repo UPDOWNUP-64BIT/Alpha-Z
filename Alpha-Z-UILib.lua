@@ -143,7 +143,7 @@ function lib:Notify(top, bottom)
 	Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Close.TextSize = 18.000
 
-	UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(33, 55, 167)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(50, 64, 140))}
+	UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(216, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
 	UIGradient_3.Rotation = 90
 	UIGradient_3.Parent = Close
 
