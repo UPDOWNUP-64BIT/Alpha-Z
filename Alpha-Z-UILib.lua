@@ -1,3 +1,4 @@
+
 local lib = {}
 
 if game.PlaceId~=13822889 then
@@ -448,7 +449,7 @@ function lib:Main()
 			Selectable = false,
 			Size = UDim2.new(1, 0, 0, 50),
 			AutoButtonColor = false,
-			Image = "rbxassetid://"..ImageId,
+			Image = "A"
 		})
 
 		categories.Container = lib:Create("ScrollingFrame", {
